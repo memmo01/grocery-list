@@ -1,6 +1,4 @@
-body{
-    /* background-color: #FFC857; */
-}    
+   
 .title{
     text-align: center;
     width:80%;
@@ -12,6 +10,14 @@ body{
     width:100%;
     margin-bottom:10px;
    
+}
+#submitt{
+    height:25px;
+    width:70px;
+}
+#cancelButton{
+    height:25px;
+    width:70px;
 }
 #addItem{
     background-color: #FFC857;
@@ -44,7 +50,7 @@ body{
    border-top:1px solid black;
 }
 .theData:hover{
-    background-color: #DB3A34;
+    background-color:#D6D5B3;
     border:2px solid black;
 }
 button{

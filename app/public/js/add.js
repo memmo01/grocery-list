@@ -91,9 +91,13 @@ var people=[];
         }
 
         $("#newUser").on("click",function(){
-            var x = "<input id='newUser' value='Enter user name'>"
-                x += "<button id='submitUser'>submit</button>"
+            var x = "<input id='newUser' placeholder='Enter user name'>"
+                x += "<button id='submitUser'>submit new user</button>"
+                
             $(".addUser").html(x)
+             $("#newUser").css({'color':'black','font-size':'15px','background-color':'white','border':'1px solid black','text-align':'left'})  
+         
+
 
             
         $("#submitUser").on("click",function(){
